@@ -1,0 +1,19 @@
+Description: replace ava by tape in test
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2020-05-23
+
+--- a/test.js
++++ b/test.js
+@@ -1,4 +1,4 @@
+-import test from 'ava';
++const test = require("tape");
+ 
+ Buffer.compare = undefined;
+ const m = require('./');
+@@ -22,4 +22,5 @@
+ 	t.throws(() => {
+ 		m('abc', new Buffer(1));
+ 	});
++    t.end();
+ });

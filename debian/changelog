@@ -1,0 +1,30 @@
+node-buf-compare (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto install
+  * New upstream version 2.0.0
+  * Update copyright
+  * Enable upstream test using tape instead of ava
+  * Add "Multi-Arch: foreign"
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 23 May 2020 12:52:09 +0200
+
+node-buf-compare (1.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Reupload to unstable
+  * Change section to javascript
+  * Bump standards version
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 01 Feb 2018 18:16:45 +0530
+
+node-buf-compare (1.0.1-1) experimental; urgency=low
+
+  * Initial release (Closes: #850122)
+
+ -- Nikhil Gawande <nikhilgawande21@gmail.com>  Wed, 04 Jan 2017 21:04:07 +0000
